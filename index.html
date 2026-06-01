@@ -7,20 +7,55 @@
   <style>
     body {
       margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #f0f0f0;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    header {
+      width: 100%;
+      background-color: #4CAF50;
+      color: white;
+      text-align: center;
+      padding: 1em 0;
+      font-size: 1.5rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    main {
+      flex: 1;
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh;
-      background-color: #f0f0f0;
-      font-family: Arial, Helvetica, sans-serif;
+      width: 100%;
     }
     h1 {
       font-size: 4rem;
       color: #333;
+      margin: 0;
+    }
+    footer {
+      width: 100%;
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 0.8em 0;
+      font-size: 0.9rem;
     }
   </style>
 </head>
 <body>
-  <h1>Hallo World</h1>
+  <header>
+    Hallo World - Header
+  </header>
+  <main>
+    <h1>Hallo World</h1>
+  </main>
+  <footer>
+    &copy; 2025 Hallo World. All rights reserved.
+  </footer>
 </body>
 </html>
